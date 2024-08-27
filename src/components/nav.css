@@ -1,0 +1,149 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.free
+{
+    padding: 3px 30px;
+    width: 100%;
+    background: #010f1c;
+    display: flex;
+}
+.free .icon
+{
+    color: #f3b123;
+    font-size: 22px;
+    margin-top: 6px;
+}
+.free p
+{
+    margin-left: 10px;
+    color: #f6f7f9;
+    margin-top: 7px ;
+}
+.main_header
+{
+padding:  20px 10px;
+width: 100%;
+border-bottom: 1px solid #010f1c;
+}
+
+.main_header .container
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main_header .container .search_box
+{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.main_header .container .search_box input
+{
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid #0989ff;
+    width: 300px;
+    color: #010f1c;
+
+}
+.main_header .container .search_box button 
+{
+    border: 3px solid #0989ff;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #0989ff;
+    color: #ecf2f7;
+}
+.main_header .container .icon
+{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.main_header .container .icon .account
+{
+    display: flex;
+    margin-right: 30px;
+}
+.main_header .container .icon .account .user_icon
+{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #010f1c;
+    cursor: pointer;
+}
+.main_header .container .icon .account p
+{
+ margin-right: 5px;
+ margin-top: 2px;
+}
+.main_header .container .icon .second_icon
+{
+
+    display: flex;
+}
+.main_header .container .icon .second_icon .link
+{
+margin-right: 5px;
+font-size: 22px;
+cursor: pointer;
+color: #0989ff;
+}
+.header
+{
+width: 100%;
+padding: 20px 30px;
+box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+.header .container
+{
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.header .container .nav ul 
+{
+    display: flex;
+    justify-content: flex-start;
+  
+}
+
+.header .container .nav ul li 
+{
+    
+    list-style: none;
+    margin-right: 20px;
+    
+}
+.header .container .nav ul li .link {
+    color: #0c0b0b; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Increase font size */
+    padding: 8px 16px; /* Add padding for clickable area */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  .header .container .nav ul li .link:hover {
+    box-shadow: 0px 3px 15px rgba(12, 11, 11, 0.24); /* Darker background on hover */
+    border-radius: 4px; /* Rounded corners on hover */
+    background-color: #c9c5c5; /* Darker background on hover */
+    color: #080808; /* White text on hover */
+    transition: all 0.2s ease; /* Smooth transition on hover */
+  }
+  .header .container {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Push .auth to the right */
+  }
+  
+  .header .container .auth {
+    margin-right: 0px; /* Remove any right margin */
+    margin-left: auto; /* Push .auth to the right */
+  }
