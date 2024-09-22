@@ -8,29 +8,24 @@ Responsive Design: Works seamlessly on both desktop and mobile devices.
 User-Friendly Interface: Clean and straightforward layout for easy navigation.
 Installation
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/kalsoomfatima272/BMI-calculator-using-React.git
+
 Navigate to the project directory:
 
-bash
-Copy code
 cd BMI-calculator-using-React
+
 Install the necessary dependencies:
 
-bash
-Copy code
 npm install
+
 Start the application:
 
-bash
-Copy code
 npm start
 Usage
 Open the app in your web browser.
 Input your height and weight.
 Click on the "Calculate" button to view your BMI and health category.
+
 Technologies Used
 React
 JavaScript
